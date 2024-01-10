@@ -1,0 +1,81 @@
+.todo_update {
+  background-color: rgb(255, 171, 44);
+}
+.todo_delete {
+  background-color: rgb(187, 9, 9);
+}
+.todo_delete,
+.todo_update {
+  margin-right: 10px;
+  padding: 10px 0px;
+  width: 60px;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+.todoList {
+  background-color: var(--background-color);
+  min-height: 100vh;
+  color: var(--text-color);
+}
+.todo_list_item {
+  width: 400px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin-bottom: 10px;
+  padding: 15px 0px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.todo_item {
+  flex: 1;
+  padding: 10px 0;
+  margin-left: 20px;
+  float: left;
+  text-align: left;
+}
+
+.todo_list_container {
+  margin-top: 50px;
+}
+
+.todo_container {
+  margin-top: 20px;
+  width: 400px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin-bottom: 10px;
+  padding: 15px 0px;
+  border-radius: 10px;
+}
+
+.todo_input {
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  margin-left: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  outline: none;
+}
+.add_todo {
+  background-color: rgb(39, 193, 39);
+  color: white;
+  font-weight: 400;
+  border: none;
+
+  margin-right: 10px;
+
+  width: 100px;
+
+  font-size: 20px;
+  border-radius: 6px;
+}
+.todo_header {
+  padding-top: 20px;
+}
